@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beach2" translatesAutoresizingMaskIntoConstraints="NO" id="mff-Cg-6al">
+                                <rect key="frame" x="0.0" y="59" width="393" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="HiY-rK-Aa2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manage and Enjoy your trip with Us!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtT-Eg-WFE">
+                                <rect key="frame" x="30" y="459" width="333" height="85.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="35"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TripEase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfJ-9w-Fut">
+                                <rect key="frame" x="30" y="544.66666666666663" width="264" height="92"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="75"/>
+                                <color key="textColor" red="0.44084829699614547" green="0.70737130965417694" blue="0.85481770833333337" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zfJ-9w-Fut" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="0Hd-y3-vEc"/>
+                            <constraint firstItem="zfJ-9w-Fut" firstAttribute="top" secondItem="gtT-Eg-WFE" secondAttribute="bottom" id="7FM-tJ-gAC"/>
+                            <constraint firstItem="mff-Cg-6al" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F9b-Yj-rib"/>
+                            <constraint firstItem="mff-Cg-6al" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HwO-2D-lqh"/>
+                            <constraint firstItem="mff-Cg-6al" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jd6-d2-T6j"/>
+                            <constraint firstItem="gtT-Eg-WFE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="cSJ-ng-Qhv"/>
+                            <constraint firstAttribute="trailing" secondItem="gtT-Eg-WFE" secondAttribute="trailing" constant="30" id="s5q-hs-a3k"/>
+                            <constraint firstItem="gtT-Eg-WFE" firstAttribute="top" secondItem="mff-Cg-6al" secondAttribute="bottom" id="w4F-FN-JGz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beach2" width="1920" height="1280"/>
+    </resources>
+</document>
